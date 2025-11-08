@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+
+
 # ---- Firebase init ----
 if not firebase_admin._apps:
     cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
